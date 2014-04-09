@@ -1,6 +1,6 @@
 {
   "name": "evohome",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A client library for Honeywell Evohome",
   "author": "Chris Warren <chris@ixalon.net>",
   "homepage": "https://github.com/ixalon/node-evohome/",
