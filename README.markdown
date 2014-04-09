@@ -4,12 +4,18 @@ A node.js client library for Honeywell Evohome. A work in progress. Pull-request
 
 ## Installing
 
-Add the following to your package.json dependencies: 
+Install via npm:
+
+```
+npm install --save evohome
+```
+
+Or, add the following to your package.json dependencies: 
 
 ```json
 {
 	"dependencies": { 
-		"evohome": "https://github.com/ixalon/node-evohome.git#v0.0.1"
+		"evohome": "https://github.com/ixalon/node-evohome.git#v0.0.2"
 	}
 }	
 ```
@@ -20,7 +26,7 @@ Add the following to your package.json dependencies:
 
 Login to Evohome remotely and return a promise which is resolved to a Session on login.
 
-```
+```javascript
 	var evohome = require('evohome');
 	evohome.login('username', 'password', 'application-id-hex').then(function(session) {
 		// Use session to access state

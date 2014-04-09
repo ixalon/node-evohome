@@ -1,13 +1,28 @@
 {
   "name": "evohome",
   "version": "0.0.1",
-  "description": "Honeywell Evohome Client",
+  "description": "A client library for Honeywell Evohome",
+  "author": "Chris Warren <chris@ixalon.net>",
+  "homepage": "https://github.com/ixalon/node-evohome/",
+  "license": "BSD",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ixalon/node-evohome.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ixalon/node-evohome/issues"
+  },
+  "keywords": [
+    "library",
+    "honeywell",
+    "evohome",
+    "automation",
+    "heating"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Chris Warren <chris@ixalon.net>",
-  "license": "BSD",
   "dependencies": {
     "lodash": "~2.4.1",
     "q": "~1.0.1",
