@@ -3,6 +3,7 @@
 A node.js client library for Honeywell Evohome. A work in progress. Pull-requests welcome!
 
 **Note: This is an unofficial library and is not supported by Honeywell in any way.
+
 Use at your own risk. :-)**
 
 ## Installing
