@@ -1,0 +1,17 @@
+{
+  "name": "evohome",
+  "version": "0.0.1",
+  "description": "Honeywell Evohome Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Warren <chris@ixalon.net>",
+  "license": "BSD",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "q": "~1.0.1",
+    "request": "~2.34.0",
+    "rrd": "~1.0.1"
+  }
+}
