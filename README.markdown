@@ -1,6 +1,6 @@
 # node-evohome
 
-A node.js client library for Honeywell Evohome.
+A node.js client library for Honeywell Evohome. A work in progress. Pull-requests welcome!
 
 ## Installing
 
@@ -9,7 +9,7 @@ Add the following to your package.json dependencies:
 ```json
 {
 	"dependencies": { 
-		"evohome": "git+ssh://git@github.com:ixalon/node-evohome.git#v0.0.1"
+		"evohome": "https://github.com/ixalon/node-evohome.git#v0.0.1"
 	}
 }	
 ```
