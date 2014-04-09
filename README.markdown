@@ -1,6 +1,6 @@
 # node-evohome
 
-A node.js client library for Honeywell Evohome.
+A node.js client library for Honeywell Evohome. A work in progress. Pull-requests welcome!
 
 ## Installing
 
